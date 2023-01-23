@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "arial", sans-serif ;
+	box-sizing:border-box;
+}
+
+/*===========================
+		main section
+=============================*/
+main {
+	width: 100%;
+	display: flex;
+	padding: 100px 0;
+}
+/*main .left-side {
+	width: 50%;
+}*/
+main .left-side .img-fb img{
+	height: 106px;
+}
+.paragraph h1 {
+	font-size: 28px;
+    line-height: 32px;
+}
+main .right-side section form .email input,
+main .right-side section form .pass input{
+	width: 100%;
+	padding: 14px 16px;
+	font-size: 17px;
+	border: 1px solid #dddfe2;
+	border-radius: 6px;
+	background: white;
+	margin-bottom: 15px;
+}
+main .right-side section form .email input:focus,
+main .right-side section form .pass input:focus {
+	/*caret-color: #1b74e4;*/
+	border: 1px solid #1b74e4;
+	outline: none;
+}
+
+.login-section {
+	width: 370px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+
+input[type="submit"] {
+	color: white;
+	background-color: #1877f2;
+	border: none;
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 16px;
+	width: 100%;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	background-color: #166fe5;
+}
+/*===================
+	forgot password
+=====================*/
+.forgot-pass span a {
+	color: #1877f2;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.forgot-pass span a:hover {
+	text-decoration: underline;
+}
+
+.new-account button {
+	background-color: #42b72a;
+	outline: none;
+	border: none;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 6px;
+}
+.new-account button:hover {
+	background-color: #36a420;
+}
+
+.create-page p{
+	font-size: 14px;
+}
+.create-page p a {
+	text-decoration: none;
+}
+.create-page p a:hover {
+	text-decoration: underline;
+}
