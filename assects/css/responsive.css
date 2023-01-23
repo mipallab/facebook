@@ -1,0 +1,23 @@
+@media screen and (max-width: 992px) {
+	main {
+		padding: 0;
+	}
+	main .left-side {
+		width: 100%;
+	}
+	main .right-side {
+		width: 100%;
+	}
+	.paragraph h1 {
+		text-align: center;
+	}
+	main .left-side .img-fb {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.login-section {
+		width: 100%;
+	}
+}
