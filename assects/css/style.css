@@ -99,3 +99,48 @@ input[type="submit"]:focus {
 .create-page p a:hover {
 	text-decoration: underline;
 }
+
+
+/*====================
+	footer section
+======================*/
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+footer ul li {
+	margin-right: 20px;
+}
+footer ul li:last-child {
+	margin-right: 0;
+}
+footer ul li a,
+footer .copyright span {
+	color: #8a8d91;
+	font-size:13px ;
+	text-decoration: none;
+}
+footer ul li a:hover {
+	color: #8a8d91;
+	text-decoration: underline;
+}
+footer .language ul li:last-child a {
+	border: 1px solid #8a8d91;
+	padding: 1px 12px;
+	background: #eaeaea;
+	text-decoration: none;
+}
+
+footer .copyright span {
+	font-size: 12px;
+}
+
+
+
+
+
